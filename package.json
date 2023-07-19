@@ -1,0 +1,36 @@
+{
+	"homepage": "https://friji350.github.io/frontendAssigment5/",
+	"name": "untitled4",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"lint": "eslint . --ext .js,.ts,.svelte",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@fontsource/fira-mono": "latest",
+		"@neoconfetti/svelte": "latest",
+		"@sveltejs/adapter-static": "latest",
+		"@sveltejs/kit": "latest",
+		"@types/cookie": "latest",
+		"@typescript-eslint/eslint-plugin": "^6.1.0",
+		"@typescript-eslint/parser": "^6.1.0",
+		"eslint": "^8.45.0",
+		"eslint-config-prettier": "^8.8.0",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-svelte3": "^4.0.0",
+		"prettier": "^3.0.0",
+		"svelte-check": "latest",
+		"tslib": "latest",
+		"typescript": "latest",
+		"vite": "latest"
+	},
+	"type": "module",
+	"dependencies": {
+		"dayjs": "latest",
+		"svelte": "^3.2.0"
+	}
+}
